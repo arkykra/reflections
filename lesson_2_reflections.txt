@@ -1,0 +1,4 @@
+Question: What happens when you initialise a repository? Why do you
+		need to do it?
+
+Initialisation sets up the files you will need to manage the Git repository.

@@ -1,0 +1,50 @@
+Question: How did viewing a diff between two versions of a file help
+		you see the bug that was introduced?
+
+It certainly made it much easier, with large files it would be pretty
+much impossible without some sort of tool.
+
+Still it's necessary to spot the exact difference, which could be a
+challenge if the change is difficult to spot.
+
+Question: How could having easy access to the entire history of a file
+		make you a more efficient programmer in the long term?
+
+It would make it easier to roll-back changes to a file if something
+went wrong. It would also mean that you don't have to remember when to 
+save a new version.
+
+Question: What do you you think are the pros and cons of manually 
+		choosing when to create a commit, like you do in Git, vs having 
+		versions automatically saved, like Google Docs does?
+
+Chosing when to save means that you have intelligent committ points
+which mean something and which should work. On the other hand you might 
+lose work if you fail to do a commit. Also if you fix then break 
+something you can't roll back to the middle point when it was working.
+
+Question: Why do you think some version control systems, like Git,
+		allow saving multiple files in one commit, while others, like Google Docs, treat each file seperately?
+
+In coding multiple changes across files are required in concert to
+get the right result, so it makes sense to track all of the changes in
+one commit.
+
+Question: How can you use the commands git log and git diff to view the
+		history of files?
+
+Git log tells you about the groups of changes which have taken place
+together with an explanation of the change. While Git diff gives you
+the details of the actual change.
+
+Question: How might using version control make you more confident to 
+		make changes that could break something?
+
+If you know you can easily return all files back to a known working
+checkpoint then you don't need to worry if you break something.
+
+Question: Now that you have your workspace set up, what do you want
+		to try using Git for?
+
+Ermmm... the rest of the course, but ultimately for the Android
+coding course
