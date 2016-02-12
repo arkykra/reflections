@@ -1,4 +1,11 @@
 Question: What happens when you initialise a repository? Why do you
 		need to do it?
 
-Initialisation sets up the files you will need to manage the Git repository.
+Initialisation sets up the files you will need to manage the Git 
+repository.
+
+Question: How is the staging area different from the working directory
+		and the repository? What value do you think it offers?
+
+The staging area allows us to indentify which files we want to include
+(rather than everyting in the working directory).
